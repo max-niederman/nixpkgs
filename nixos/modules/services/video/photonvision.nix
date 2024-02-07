@@ -12,7 +12,7 @@ in
       package = mkOption {
         type = types.package;
         default = pkgs.photonvision;
-        defaultText = literalExpression "pkgs.zerotierone";
+        defaultText = literalExpression "pkgs.photonvision";
         description = "The PhotonVision package to use.";
       };
 
